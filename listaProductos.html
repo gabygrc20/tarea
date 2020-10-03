@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title> Lista de productos </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">GR15059</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-link float-right" href="login.html">Iniciar sesión </a>
+                <a class="nav-link" href="producto.html"> Producto </a>
+                <a class="nav-link" href="listaProductos.html"> Lista de productos </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-8">
+                <br/>
+            <div class="card text-left">
+                <div class="card-header">
+                    Lista de productos
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="inputEmail1">Buscar producto:</label>
+                        <input type="email" class="form-control" id="inputEmail1" placeholder="">
+                    </div>
+                        <div class="card-footer"></div>
+                        <a href="#" class="btn btn-primary float-right">Buscar</a> 
+                    </div>
+                </br>
+                
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio (Unidad)</th>
+                            <th scope="col">Existencias</th>
+                            <th scope="col">Acciones</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Soda</th>
+                            <td>$1.50</td>
+                            <td>500</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">jugo de naranja</th>
+                            <td>$0.50</td>
+                            <td>150</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Paquete de galletas</th>
+                            <td>$1.00</td>
+                            <td>500</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Bolsas de dulces</th>
+                            <td>$0.75</td>
+                            <td>1500</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Churros</th>
+                            <td>$0.15</td>
+                            <td>1000</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Botella de aceite</th>
+                            <td>$2.75</td>
+                            <td>400</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Botella de agua</th>
+                            <td>$0.60</td>
+                            <td>700</td>
+                            <td><button type="button" class="btn btn-light">Editar</button></td>
+                          </tr>
+                        </tbody>
+                      </table>
